@@ -1,0 +1,1 @@
+$(document).ready((function(){$.get("request_port.php?module=SetScreen",{screen_resolution:screen.width+"x"+screen.height,color_depth:screen.colorDepth,gm_action:"gmc_user_screen"})}));
